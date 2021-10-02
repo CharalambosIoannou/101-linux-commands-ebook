@@ -5,13 +5,20 @@ It outputs an archive containing one or more compressed files or directories.
 
 ### Examples:
 
+In order to compress a single file with the `zip` command the syntax would be the following:
+
 ```
 zip myZipFile.zip filename.txt
 ```
 
+This also works with multiple files as well:
+
 ```
 zip multipleFiles.zip file1.txt file2.txt
 ```
+
+If you are compressing a whole directory, don't forget to add the `-r` flag:
+
 ```
 zip -r zipFolder.zip myFolder/
 ```
